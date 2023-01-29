@@ -23,7 +23,7 @@ namespace Calculator
 
                 Console.WriteLine("Podaj pierwszą liczbę:");
                 
-                var number1 = GetInput();
+                var number1 = GetInput(); //metoda pobirania liczb
 
                 Console.WriteLine("Podaj działanie jakie chcesz wykonać? Możliwe operacje to '+', '-', '/', '*'");
                 var action = Console.ReadLine();
