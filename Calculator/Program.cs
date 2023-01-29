@@ -23,14 +23,14 @@ namespace Calculator
 
                 Console.WriteLine("Podaj pierwszą liczbę:");
                 
-                var number1 = GetInput(); //metoda pobirania liczb
+                var number1 = GetInput(); //metoda pobierania liczb
 
                 Console.WriteLine("Podaj działanie jakie chcesz wykonać? Możliwe operacje to '+', '-', '/', '*'");
                 var action = Console.ReadLine();
 
                 Console.WriteLine("Podaj drugą liczbę:");
               
-                var number2 = GetInput();
+                var number2 = GetInput(); //metoda pobierająca drugą liczbę
 
                 var result = Calculate(number1, number2, action);
 
